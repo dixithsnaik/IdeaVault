@@ -42,7 +42,7 @@ To install and run the Note App locally, follow these steps:
 
 1. Clone the repository:
     bash
-    git clone [https://github.com/your-username/IdeaVault.git](https://github.com/dixithsnaik/IdeaVaultgit)
+    git clone [https://github.com/dixithsnaik/IdeaVault.git](https://github.com/dixithsnaik/IdeaVaultgit)
     cd note-app
     
 

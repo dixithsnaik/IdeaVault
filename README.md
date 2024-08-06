@@ -1,6 +1,6 @@
-# Note App
+# IdeaVault
 
-Welcome to the Note App repository. This document will guide you through the features, installation process, and other details of the Note App.
+Welcome to the IdeaVault repository. This document will guide you through the features, installation process, and other details of the IdeaVault.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the Note App repository. This document will guide you through the fea
 
 ## Introduction
 
-The Note App is a simple and intuitive application built using Flutter. It allows users to create, edit, and manage their notes efficiently. This app is designed to be user-friendly and accessible.
+The IdeaVault is a simple and intuitive application built using Flutter. It allows users to create, edit, and manage their notes efficiently. This app is designed to be user-friendly and accessible.
 
 ## Features
 
@@ -25,7 +25,7 @@ The Note App is a simple and intuitive application built using Flutter. It allow
 
 ## Screenshots
 
-Here are some screenshots of the Note App:
+Here are some screenshots of the IdeaVault:
 
 ### Main Screen
 ![Home_Page](https://github.com/user-attachments/assets/ffee88fe-1d31-4f84-af38-6588d6d03629)
@@ -42,7 +42,7 @@ To install and run the Note App locally, follow these steps:
 
 1. Clone the repository:
     bash
-    git clone [https://github.com/your-username/note-app.git](https://github.com/dixithsnaik/Note-App.git)
+    git clone [https://github.com/your-username/IdeaVault.git](https://github.com/dixithsnaik/IdeaVaultgit)
     cd note-app
     
 
@@ -81,4 +81,4 @@ Please make sure to update tests as appropriate.
 
 If you have any questions or suggestions, please feel free to reach out to us at [dixithsnaik@gmail.com](mailto:dixithsnaik@gmail.com).
 
-Thank you for using the Note App!
+Thank you for using the IdeaVault!

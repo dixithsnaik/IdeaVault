@@ -28,13 +28,13 @@ The Note App is a simple and intuitive application built using Flutter. It allow
 Here are some screenshots of the Note App:
 
 ### Main Screen
-![Main Screen](https://github.com/user-attachments/assets/2afa0637-aad9-403d-8ad7-e1e2593128f2)
+![Home_Page](https://github.com/user-attachments/assets/ffee88fe-1d31-4f84-af38-6588d6d03629)
 
 ### Note Details
-![Note Details](https://github.com/user-attachments/assets/1f964b61-a653-4eae-8ccc-3dcf8f839943)
+![Note Details](https://github.com/user-attachments/assets/701aca60-5ced-42b4-87b1-883723de1d95)
 
 ### Trash
-![Trash](https://github.com/user-attachments/assets/e657063b-4668-413e-9bce-825a71c9bc36)
+![Trash](https://github.com/user-attachments/assets/a56c0c54-4466-4369-b616-ee7ed7edd7c3)
 
 ## Installation
 

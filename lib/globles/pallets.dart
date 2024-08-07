@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-const Color backgroundColor = Color(0XFF181B24);
-const Color iconButtonColor = Color(0XFF504F4D);
-const Color flotingActionColor = Color(0XFFFECD64);
+const Color backgroundColor = Color(0XFF10131A);
+const Color iconButtonColor = Color(0XFF5A3D59);
+const Color flotingActionColor = Color(0XFFFFFFFF);
 const Color timeColor = Color.fromARGB(255, 147, 150, 158);
-const Color color1 = Color(0XFF4F2C7E);
-const Color color2 = Color(0XFF25D0E1);
-const Color color3 = Color(0XFFD0181A);
-const Color color4 = Color.fromARGB(255, 188, 180, 162);
+const Color color1 = Color(0XFFE33F2C);
+const Color color2 = Color(0XFFF0B502);
+const Color color3 = Color(0XFF2DA24D);
+const Color color4 = Color(0XFF3C7DEB);
 const Color whiteColor = Color(0XFFFFFFFF);

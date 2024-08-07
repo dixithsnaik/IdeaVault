@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:note_app/controllers/note_controller.dart';
@@ -18,8 +19,8 @@ class LoginPage extends StatelessWidget {
           height: 400,
           decoration: BoxDecoration(
             border: Border.all(
-              width: 3,
-              color: color1,
+              width: 2,
+              color: timeColor,
             ),
             borderRadius: BorderRadius.circular(10),
           ),
@@ -31,13 +32,19 @@ class LoginPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    SvgPicture.asset("assets/icons/NoteLogo1.svg"),
+                    SvgPicture.asset(
+                      "assets/icons/logo_note.svg",
+                      height: 90,
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
                     const Text(
                       "IdeaVault",
                       style: TextStyle(
                         fontSize: 26,
                         fontWeight: FontWeight.w600,
-                        color: Color(0XFFF0B502),
+                        color: whiteColor,
                       ),
                     ),
                   ],
@@ -55,17 +62,21 @@ class LoginPage extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Image.asset("assets/icons/google.png"),
+                      SvgPicture.asset(
+                        "assets/icons/google.svg",
+                        height: 30,
+                      ),
                       const SizedBox(
                         width: 10,
                       ),
                       const Flexible(
                         child: Text(
                           "Sign in with Google",
+                          textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontSize: 16,
-                            color: backgroundColor,
-                          ),
+                              fontSize: 16,
+                              color: backgroundColor,
+                              fontWeight: FontWeight.w500),
                         ),
                       )
                     ],

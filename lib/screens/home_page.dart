@@ -72,11 +72,10 @@ class HomePage extends StatelessWidget {
                                           TextButton(
                                             onPressed: () {
                                               noteController.signout(context);
-
                                             },
                                             child: const Text("Yes",
-                                                style:
-                                                    TextStyle(color: color4)),
+                                                style: TextStyle(
+                                                    color: timeColor)),
                                           ),
                                           TextButton(
                                             onPressed: () {
@@ -113,17 +112,24 @@ class HomePage extends StatelessWidget {
 
                         final notes = snapshot.data!;
                         if (notes.isEmpty) {
-                          return const Padding(
-                            padding: EdgeInsets.symmetric(
+                          return Padding(
+                            padding: const EdgeInsets.symmetric(
                                 horizontal: 20, vertical: 20),
-                            child: Text(
-                              "Keep track of everything with our easy-to-use note app. Write down ideas, create lists, plan projects - the possibilities are endless!",
-                              textAlign: TextAlign.left,
-                              style: TextStyle(
-                                color: timeColor,
-                                fontSize: 18,
-                                fontWeight: FontWeight.w400,
-                                fontStyle: FontStyle.italic,
+                            child: GestureDetector(
+                              onTap: () {
+                                noteController.resetFields();
+                                Navigator.of(context).push(MaterialPageRoute(
+                                    builder: (context) => AddNoteScreen()));
+                              },
+                              child: const Text(
+                                "Keep track of everything with our easy-to-use note app. Write down ideas, create lists, plan projects - the possibilities are endless!",
+                                textAlign: TextAlign.left,
+                                style: TextStyle(
+                                  color: timeColor,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w400,
+                                  fontStyle: FontStyle.italic,
+                                ),
                               ),
                             ),
                           );
@@ -169,19 +175,15 @@ class HomePage extends StatelessWidget {
                       boxShadow: [
                         BoxShadow(
                           color: Color.fromARGB(255, 90, 90, 90),
-                          blurRadius: 20.0,
+                          blurRadius: 5.0,
                           spreadRadius: 0.0,
                           offset: Offset(
                               0.0, 0.0), // shadow direction: bottom right
                         )
                       ],
                     ),
-                    child: const Center(
-                      child: Icon(
-                        CupertinoIcons.add,
-                        color: whiteColor,
-                        size: 40,
-                      ),
+                    child: Center(
+                      child: SvgPicture.asset("assets/icons/add.svg"),
                     ),
                   ),
                 ),
